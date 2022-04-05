@@ -99,7 +99,7 @@ const App = () => {
         map.current = new mapboxgl.Map({
             container: mapContainer.current,
             style: "mapbox://styles/mapbox/light-v10",
-            center: [geocode[0][0], geocode[0][1]],
+            center: [0, 0],
             zoom: zoom,
             interactive: false,
         });
