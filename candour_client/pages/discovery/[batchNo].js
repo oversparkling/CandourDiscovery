@@ -239,7 +239,7 @@ const App = () => {
         >
             <div className="grid grid-cols-6 gap-4 pb-6">
                 <div
-                    onClick={() => router.push("/")}
+                    onClick={() => router.push("/discovery")}
                     className="cursor-pointer col-start-1 col-span-2 pl-5"
                 >
                     <img src="/navbarlogo.png" width={80} height="auto" />
